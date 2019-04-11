@@ -1,6 +1,5 @@
-This is the summary of the data fields in tidy.txt
+This is the summary of the data fields in tidydata.txt
 
-Identifiers
 activityid - The subject ID
 activityname - the type of activity performed 
 
