@@ -1,4 +1,18 @@
 # Getting-and-Cleaning-Data-Course-Project
+This is the summary of process on the code snipets below
+
+  - Download the dataset by using the file.download function if not existing in the working directory.
+  - Read the activity and feature info by using the read.table function to allow txt files to be in data table format
+  - Read both the training and test datasets, then filter the data using grep() function getting only the columns with "mean" and "std"
+  - Read the activity and subject data for each dataset, then merge the column into the dataset
+  - Change the field names of the dataset by the colnames() function using the name of the rows available in features
+  - Fix the naming convention by using gsub() function to remove uneccesary elements such as parenthesis and also have proper           capitalization
+  - Create a final data set which gets the average of the data per activityname and activityid/ subject.
+  - write the file in .txt format by using the write.table function and name the file tidydata.txt
+  
+
+#SOURCE CODE
+
 
 #Start by Downloading the zip file in the working directory
 temp <- tempfile()
