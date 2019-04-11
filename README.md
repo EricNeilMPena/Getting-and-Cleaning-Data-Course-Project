@@ -1,5 +1,5 @@
 # Getting-and-Cleaning-Data-Course-Project
-This is the summary of process on the code snipets below
+This is the summary of process on the code snippets below.
 
   - Download the dataset by using the file.download function if not existing in the working directory.
   - Read the activity and feature info by using the read.table function to allow txt files to be in data table format
